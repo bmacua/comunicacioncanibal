@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  align-items: center; }
+
+div {
+  font-weight: normal;
+  font-kerning: 12px;
+  font-family: Arial, Helvetica, San-serif;
+  font-style: italic;
+  color: #CC0082;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: black;
+  padding: 40px 10px;
+  margin: 30px 30px 40px 30px; }
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+ul {
+  list-style: none; }
+  ul li {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #ccc;
+    margin: 0px;
+    color: black;
+    background-color: #CC0082;
+    align-content: center; }
+
+ul li:hover ul {
+  display: block; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black; }
+
+h1 {
+  color: #CC0082; }
+
+h2 {
+  font-weight: normal;
+  font-kerning: 16px;
+  font-family: Arial, Helvetica, San-serif;
+  font-style: bold;
+  color: black;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #CC0082;
+  background: linear-gradient(to top, #CC0082, black);
+  height: 5vh;
+  color: white;
+  padding: 60px 60px;
+  margin: 10px 10px 10px 10px; }
+
+.item {
+  font-weight: normal;
+  font-kerning: 13px;
+  font-family: Arial, Helvetica, San-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #CC0082;
+  background: linear-gradient(to top, #CC0082, black);
+  height: 5vh;
+  color: white;
+  padding: 40px 60px;
+  margin: 10px 10px 10px 10px; }
+
+.transicion:hover {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s; }
+
+h3
+h4
+h5 {
+  font-weight: normal;
+  font-kerning: 16px;
+  font-family: Arial, Helvetica, San-serif;
+  font-style: bold;
+  color: black;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #CC0082;
+  padding: 20px 10px;
+  margin: 30px 30px 40px 70px; }
+
+footer {
+  font-weight: normal;
+  font-kerning: 12px;
+  font-family: Arial, Helvetica, San-serif;
+  font-style: bold;
+  color: #CC0082;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: black;
+  padding: 20px 10px;
+  margin: 30px 30px 40px 30px; }
+
+form {
+  font-weight: normal;
+  font-kerning: 16px;
+  font-family: Arial, Helvetica, San-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #CC0082;
+  padding: 20px 10px;
+  margin: 30px 30px 40px 30px; }
+
+table {
+  font-weight: normal;
+  font-kerning: 16px;
+  font-family: Arial, Helvetica, San-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: #CC0082;
+  padding: 20px 10px;
+  margin: 30px 30px 40px 30px; }
+
+.contenedorNosotras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.contenedorNosotras {
+  background-color: #CC0082;
+  padding: 60px;
+  margin: 10px; }
+
+iframe {
+  align-self: center; }
+
+button {
+  width: 100px;
+  height: 50px;
+  background: #CC0082;
+  transition: width 0.5s; }
+
+button:hover {
+  width: 300px; }
+
+card {
+  align-items: center; }
+
+card-columns {
+  column-count: 3; }
+
+.text {
+  position: center;
+  align-content: center; }
+
+.nav-item {
+  display: inline-block;
+  width: 100%;
+  position: center;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #ccc;
+  margin: 2px;
+  align-content: center; }
+
+.card-text {
+  font-weight: normal;
+  font-kerning: 12px;
+  font-family: Arial, Helvetica, San-serif;
+  font-style: italic;
+  color: #CC0082;
+  text-align: center;
+  background-color: black; }
+
+.card-title {
+  font-weight: normal;
+  font-kerning: 16px;
+  font-family: Arial, Helvetica, San-serif;
+  font-style: bold;
+  color: black;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: #CC0082;
+  background: linear-gradient(to top, #CC0082, black);
+  height: 5vh;
+  color: white; }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px; } }
+
+/* Tablet Device = 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .div {
+    font-kerning: 12px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 5px 5px;
+    margin: 5px 5px 5px 5px; }
+  .ul .li {
+    display: inline-block;
+    width: 100%;
+    position: center;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid #ccc;
+    margin: 0px;
+    align-content: center; }
+  .nav-item {
+    display: inline-block;
+    width: 100%;
+    position: center;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #ccc;
+    margin: 2px;
+    align-content: center; }
+  .h2 {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 50px 50px;
+    margin: 30px 30px 40px 30px; }
+  h3
+h4
+h5 {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 30px 30px 40px 30px; }
+  .footer {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 30px 30px 40px 30px; } }
+
+.contenedorNosotras {
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  margin: 30px 30px 40px 30px; }
+
+.form {
+  font-weight: normal;
+  font-kerning: 8px;
+  text-align: center;
+  letter-spacing: 0px;
+  padding: 20px 10px;
+  margin: 30px 30px 40px 30px; }
+
+.table {
+  font-weight: normal;
+  font-kerning: 8px;
+  text-align: center;
+  letter-spacing: 0px;
+  padding: 20px 10px;
+  margin: 30px 30px 40px 30px; }
+
+/* Wide Mobile = 480px */
+@media only screen and (max-width: 767px) {
+  .div {
+    font-kerning: 8px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 5px 5px 5px 5px; }
+  .ul .li {
+    display: inline-block;
+    width: 100%;
+    position: center;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid #ccc;
+    margin: 0px;
+    align-content: center; }
+  .nav-item {
+    display: inline-block;
+    width: 100%;
+    position: center;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #ccc;
+    margin: 2px;
+    align-content: center; }
+  .h2 {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 50px 50px;
+    margin: 30px 30px 40px 30px; }
+  h3
+h4
+h5 {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 30px 30px 40px 30px; }
+  .footer {
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 30px 30px 40px 30px; }
+  .contenedorNosotras {
+    text-align: center;
+    padding: 40px;
+    margin: 20px 10px;
+    margin: 30px 30px 40px 30px; }
+  .form {
+    font-weight: normal;
+    font-kerning: 8px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 50px 50px 60px 50px; }
+  .table {
+    font-weight: normal;
+    font-kerning: 8px;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 10px;
+    margin: 50px 50px 60px 50px; } }
